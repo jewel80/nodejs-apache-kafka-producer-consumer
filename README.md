@@ -40,9 +40,9 @@ npm install
 
 **Configuration**
 1. Create a .env file in the project root and configure your Kafka settings:
-KAFKA_CLIENT_ID=nodejs-kafka
-KAFKA_BROKERS=localhost:9092
-KAFKA_GROUP_ID=test-group
+-KAFKA_CLIENT_ID=nodejs-kafka
+-KAFKA_BROKERS=localhost:9092
+-KAFKA_GROUP_ID=test-group
 
 **Running the app cmd**
 
