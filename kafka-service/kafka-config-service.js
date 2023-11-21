@@ -20,6 +20,8 @@ class KafkaConfig {
       clientId: process.env.KAFKA_CLIENT_ID,
       brokers: [process.env.KAFKA_BROKERS],
     });
+    this.producer = this.kafka.producer();
+    this.consumer = this.kafka.consumer({ groupId: "test-group" });
   }
 
   async produce(topic, messages) {
