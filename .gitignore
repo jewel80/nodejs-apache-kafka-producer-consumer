@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Environment files
+.env
+
+# Build results
+/build
+
+# Dependency directories
+/jspm_packages/
+
+# Typescript
+*.tsbuildinfo
+
+# Visual Studio Code directories
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
