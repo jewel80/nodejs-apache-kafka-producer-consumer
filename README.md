@@ -44,6 +44,7 @@ KAFKA_CLIENT_ID=nodejs-kafka
 KAFKA_BROKERS=localhost:9092
 KAFKA_GROUP_ID=test-group
 
-_Running the app cmd_
+**_Running the app cmd_**
+
 npm run start
 
