@@ -44,7 +44,13 @@ npm install
 -KAFKA_BROKERS=localhost:9092
 -KAFKA_GROUP_ID=test-group
 
+**docker-compose.yaml**
+-docker-compose up -d
+
+
 **Running the app cmd**
 
 - npm run start
+
+
 
