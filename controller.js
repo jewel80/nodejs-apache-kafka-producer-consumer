@@ -1,4 +1,4 @@
-import KafkaConfig from "./kafka-service/kafka-config-service.js";
+import KafkaConfig from "./kafka-config/kafka-config-service.js";
 
 // Controller function to send a message to Kafka
 const sendMessageToKafka = async (req, res) => {

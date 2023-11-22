@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import constrollers from "./controller.js";
-import KafkaConfig from "./kafka-service/kafka-config-service.js";
+import KafkaConfig from "./kafka-config/kafka-config-service.js";
 
 const app = express();
 const jsonParser = bodyParser.json();
