@@ -1,10 +1,6 @@
 # nodejs-apache-kafka-producer-consumer
 Node.js project showcasing Apache Kafka integration for seamless message communication. Includes Kafka producer and consumer components, illustrating efficient messaging system development with Node.js and Kafka.
 
-# Node.js Apache Kafka Producer-Consumer
-
-This is a Node.js application that demonstrates the use of Apache Kafka for message production and consumption. The project includes a Kafka producer that sends messages to a Kafka topic and a consumer that processes and logs those messages.
-
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
